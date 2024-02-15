@@ -60,11 +60,7 @@
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor"]
-    },
-    {
-      "route": "/api/ExecEdit*",
-      "allowedRoles": ["servicedesk"]
+      "allowedRoles": ["admin", "editor", "servicedesk"]
     },
     {
       "route": "/api/Remove*",
