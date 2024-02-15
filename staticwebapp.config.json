@@ -44,11 +44,11 @@
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "editor", "ServiceDesk"]
+      "allowedRoles": ["admin", "editor", "servicedesk"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor", "ServiceDesk"]
+      "allowedRoles": ["admin", "editor", "servicedesk"]
     },
     {
       "route": "/api/ExecSendPush",
