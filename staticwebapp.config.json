@@ -32,11 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "servicedesk"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "servicedesk"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -76,15 +76,15 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "servicedesk"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "servicedesk"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "servicedesk"]
     }
   ],
   "navigationFallback": {
