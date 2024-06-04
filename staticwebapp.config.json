@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "servicedesk"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -52,7 +52,7 @@
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly"]
+      "allowedRoles": ["admin", "editor", "readonly", "servicedesk"]
     },
     {
       "route": "/api/ExecExcludeTenant",
